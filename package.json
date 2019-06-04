@@ -1,0 +1,36 @@
+{
+  "name": "orden",
+  "version": "0.1.0",
+  "description": "Parse a markdown table string into an array of objects. With types!",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "watch": "jest --watch"
+  },
+  "keywords": ["table", "markdown", "types", "parse", "convert", "mock"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "mdtable2json": "^0.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "rollup": "^1.11.3",
+    "uglify-es": "^3.3.9"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
+  }
+}
