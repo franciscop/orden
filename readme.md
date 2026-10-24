@@ -1,4 +1,4 @@
-# Orden [![npm install orden](https://img.shields.io/badge/npm%20install-orden-blue.svg)](https://www.npmjs.com/package/orden)
+# Orden [![npm install orden](https://img.shields.io/badge/npm%20install-orden-blue.svg)](https://www.npmjs.com/package/orden) [![tests](https://github.com/franciscop/orden/workflows/tests/badge.svg)](https://github.com/franciscop/orden/actions) [![gzip size](https://img.badgesize.io/franciscop/orden/master/index.js.svg?label=gzip&logo=&compression=gzip)](https://github.com/franciscop/orden/blob/master/index.js)
 
 Parse a markdown table into an array of objects (with optional types). Perfect for mocking data:
 

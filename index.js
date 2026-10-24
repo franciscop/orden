@@ -6,7 +6,7 @@ const boolean = b => /^True$/i.test(b);
 const object = str => {
   try {
     return JSON.parse(str);
-  } catch (error) {
+  } catch {
     throw new Error(`Cannot parse "${str}" as JSON`);
   }
 };
